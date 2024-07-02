@@ -5,11 +5,15 @@
 1. **Configure Database:**  
    Change `config/config.json` to set your database configuration.
 
-2. **Run Migrations:**  
+2. **Install packages:**  
+   Execute the following command to install packages:
+npm install
+
+3. **Run Migrations:**  
    Execute the following command to migrate your database schema:
 npm run migrate
 
-3. **Start the Application:**  
+4. **Start the Application:**  
 Launch the application with the following command:
 node app.js
 
